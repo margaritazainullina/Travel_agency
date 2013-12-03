@@ -1,0 +1,57 @@
+﻿<Window x:Class="Travel_agency.Pages.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Регистрация нового пользователя" Height="300" Width="430">
+
+    <Window.Background>
+        <ImageBrush ImageSource="/Travel_agency;component/Images/bgn.png"/>
+    </Window.Background>
+
+    <Grid Width="430" Margin="0,0,-8,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Click="Button_Click_1"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="44" Width="184" Margin="213,180,23,45" >
+            <StackPanel Orientation="Horizontal" Width="207">
+                <Image Source="/Travel_agency;component/Icons/kedit_3238.ico" Height="35" Width="33"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Зарегистрировать" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Label Style="{StaticResource LabelStyle1}" Content="Имя" HorizontalAlignment="Left" Margin="134,33,0,0" VerticalAlignment="Top" Height="33" Width="44"/>
+        <TextBox x:Name="nameTb" HorizontalAlignment="Left" Height="23" Margin="190,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
+        <Label Style="{StaticResource LabelStyle1}" Content="Логин" HorizontalAlignment="Left" Margin="134,66,0,0" VerticalAlignment="Top" Height="31" Width="51"/>
+        <TextBox x:Name="loginTb" HorizontalAlignment="Left" Height="23" Margin="190,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
+        <Label Style="{StaticResource LabelStyle1}" Content="Пароль" HorizontalAlignment="Left" Margin="134,97,0,0" VerticalAlignment="Top" Height="31" Width="56"/>
+        <TextBox x:Name="passwordTb" HorizontalAlignment="Left" Height="23" Margin="190,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
+        <Label Style="{StaticResource LabelStyle1}" Content="Тип учетной записи" HorizontalAlignment="Left" Margin="134,128,0,0" VerticalAlignment="Top" Height="35" Width="132"/>
+        <ComboBox x:Name="positionCb" HorizontalAlignment="Left" Margin="271,132,0,0" VerticalAlignment="Top" Width="126" Height="22">
+            <TextBlock Text="Менеджер"/>
+            <TextBlock Text="Администратор"/>
+        </ComboBox>
+
+        <Image Source="/Travel_agency;component/Images/side panel images/keysSide.jpg" Margin="-6,0,308,0"/>
+        <Rectangle Margin="112,0,301,0" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#33FFFFFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Margin="0,0,319,-1"  Fill="#4FFFFFFF"/>
+
+    </Grid>
+</Window>

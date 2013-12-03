@@ -13,3 +13,135 @@ I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.exe
 I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.pdb
 I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.baml
 I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.g.cs
+D:\Travel_agency\Travel_agency\bin\Debug\Travel_agency.exe.config
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.exe
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.pdb
+D:\Travel_agency\Travel_agency\bin\Debug\Travel_agency.exe
+D:\Travel_agency\Travel_agency\bin\Debug\Travel_agency.pdb
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.baml
+D:\Travel_agency\Travel_agency\obj\Debug\MainWindow.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Order.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Report.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Schedule.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\MainWindow.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Order.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Report.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Schedule.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\App.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency_MarkupCompile.cache
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.g.resources
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.Properties.Resources.resources
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.csproj.GenerateResource.Cache
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher_details.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher_details.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Hotel.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Hotel.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency.csprojResolveAssemblyReference.cache
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\OrderPreview.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\OrderPreview.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\InsurancePreview.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\InsurancePreview.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\BillPreview.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\BillPreview.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Travel_agency_Content.g.cs
+D:\Travel_agency\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.dll
+D:\Travel_agency\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+D:\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.pdb
+D:\Travel_agency\Travel_agency\obj\Debug\App.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Registration.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Registration.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\test.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\test.g.cs
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\addNewRoute.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\addNewRoute.g.cs
+D:\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.Design.dll
+D:\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.Design.pdb
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Statistics.baml
+D:\Travel_agency\Travel_agency\obj\Debug\Pages\Statistics.g.cs
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\Travel_agency.exe.config
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.exe
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.pdb
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\Travel_agency.exe
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\Travel_agency.pdb
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\WPFToolkit.Design.dll
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\WPFToolkit.dll
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\WPFToolkit.Design.pdb
+D:\Travel_agency - Copy\Travel_agency\bin\Debug\WPFToolkit.pdb
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.csprojResolveAssemblyReference.cache
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\addNewRoute.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\BillPreview.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\InsurancePreview.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Hotel.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\MainPage.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\MainWindow.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Order.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\OrderPreview.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Registration.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Report.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Schedule.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Statistics.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\test.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Voucher.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Voucher_details.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\App.baml
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\addNewRoute.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\BillPreview.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\InsurancePreview.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Hotel.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\MainPage.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\MainWindow.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Order.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\OrderPreview.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Registration.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Report.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Schedule.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Statistics.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\test.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Voucher.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Pages\Voucher_details.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\App.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency_Content.g.cs
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency_MarkupCompile.cache
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.g.resources
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.Properties.Resources.resources
+D:\Travel_agency - Copy\Travel_agency\obj\Debug\Travel_agency.csproj.GenerateResource.Cache
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.Design.dll
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.dll
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.Design.pdb
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\WPFToolkit.pdb
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\addNewRoute.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\BillPreview.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\InsurancePreview.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Hotel.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Order.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\OrderPreview.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Registration.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Report.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Schedule.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Statistics.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\test.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher_details.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\App.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\addNewRoute.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\BillPreview.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\InsurancePreview.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Hotel.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Order.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\OrderPreview.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Registration.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Report.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Schedule.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Statistics.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\test.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\Voucher_details.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency_Content.g.cs

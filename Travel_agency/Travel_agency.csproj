@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -47,12 +48,44 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="ChartPoint.cs" />
+    <Compile Include="CurrentOrder.cs" />
+    <Compile Include="DataGridUtil.cs" />
+    <Compile Include="Md5.cs" />
+    <Compile Include="Pages\addNewRoute.xaml.cs">
+      <DependentUpon>addNewRoute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BillPreview.xaml.cs">
+      <DependentUpon>BillPreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InsurancePreview.xaml.cs">
+      <DependentUpon>InsurancePreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppUtil.cs" />
+    <Page Include="Pages\addNewRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\BillPreview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\InsurancePreview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Hotel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -66,6 +99,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="myPublic.cs" />
+    <Compile Include="Pages\Hotel.xaml.cs">
+      <DependentUpon>Hotel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -73,8 +109,64 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Order.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\OrderPreview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Registration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Statistics.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Voucher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Voucher_details.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Order.xaml.cs">
+      <DependentUpon>Order.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OrderPreview.xaml.cs">
+      <DependentUpon>OrderPreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Registration.xaml.cs">
+      <DependentUpon>Registration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report.xaml.cs">
+      <DependentUpon>Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Schedule.xaml.cs">
+      <DependentUpon>Schedule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Statistics.xaml.cs">
+      <DependentUpon>Statistics.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Voucher.xaml.cs">
+      <DependentUpon>Voucher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Voucher_details.xaml.cs">
+      <DependentUpon>Voucher_details.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -100,6 +192,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\side panel images\graphSide.jpg" />
+    <Resource Include="Icons\Walrick-Openphone-Graph.ico" />
+    <Resource Include="Images\side panel images\subscription-billing-credit-cards-1024x768.jpg" />
+    <Resource Include="Icons\text.ico" />
+    <Resource Include="Images\subscription-billing-credit-cards-1024x768.jpg" />
+    <Resource Include="Images\side panel images\Fish_wallpapers_424.jpg" />
+    <Resource Include="Images\bgn.png" />
+    <Resource Include="Images\side panel images\citySide.jpg" />
+    <Resource Include="Images\side panel images\hotelSide.jpg" />
+    <Resource Include="Images\side panel images\keysSide.jpg" />
+    <Resource Include="Images\side panel images\scheduleSide.jpeg" />
+    <Resource Include="Images\side panel images\sideReports.jpg" />
+    <Resource Include="Images\side panel images\sideVoucher.jpg" />
+    <Resource Include="Icons\07_calendar.ico" />
+    <Resource Include="Icons\add1-_4474.ico" />
+    <Resource Include="Icons\binoculars_128_6440.ico" />
+    <Resource Include="Icons\binoculars_6517.ico" />
+    <Resource Include="Icons\Browser.ico" />
+    <Content Include="Icons\CodecPack.exe" />
+    <Resource Include="Icons\Dapino-Summer-Holiday-Hotel.ico" />
+    <Resource Include="Icons\Dapino-Summer-Holiday-Palm-tree.ico" />
+    <Resource Include="Icons\document_graph_5690.ico" />
+    <Resource Include="Icons\edit-delete_1097.ico" />
+    <Resource Include="Icons\error_9838.ico" />
+    <Resource Include="Icons\exit.ico" />
+    <Resource Include="Icons\hp_printer.ico" />
+    <Resource Include="Icons\Internet.ico" />
+    <Resource Include="Icons\internetbags_2227.ico" />
+    <Resource Include="Icons\Itzikgur-My-Seven-Travel-Airplane.ico" />
+    <Resource Include="Icons\kedit_3238.ico" />
+    <Resource Include="Icons\kontact_date_4272.ico" />
+    <Resource Include="Icons\logout_1131.ico" />
+    <Resource Include="Icons\log_6343.ico" />
+    <Resource Include="Icons\search_9654.ico" />
+    <Resource Include="Icons\shopcartdown_128x128_7440.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

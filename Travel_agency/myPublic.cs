@@ -13,7 +13,7 @@ namespace Travel_agency
     {
         //Строка соединения
         public static string connString =
-            @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\travel_agency.accdb";
+            @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\travel_agency_server.accdb";
               
     }
 }

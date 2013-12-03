@@ -4,41 +4,101 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="314.043"
-	Title="MainPage" Width="639.575">
-<Grid>
+      d:DesignHeight="400"
+	Title="SunTravel client" Width="600">
+    <Page.Background>
+        <ImageBrush ImageSource="/Travel_agency;component/Images/bgn.png"/>
+    </Page.Background>
+
+
+    <Grid>
         <Grid.Resources>
             <DataTemplate x:Key="СотрудникиItemTemplate">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50" />
                     </Grid.ColumnDefinitions>
-                    <TextBlock 
-                        Text="{Binding Path=name}" 
-                        Grid.Column="0"
-                        FontWeight="Bold" />
+
                 </Grid>
             </DataTemplate>
         </Grid.Resources>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="73*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="101*"/>
-            <RowDefinition Height="108*"/>
-            <RowDefinition Height="105*"/>
-        </Grid.RowDefinitions>
-        <Label x:Name="lbl1" Content="Логин" Grid.Column="2" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="28" Width="68" FontFamily="Minion Pro"/>
-        <TextBox x:Name="Login" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="83,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lbl2" Content="Пароль" Grid.Column="2" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Height="26" Width="68"/>
-        <TextBox x:Name="Pasw" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="83,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="EnterBtn" Content="Вход" Grid.Column="2" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="75" Click="EnterBtn_Click" Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions> 
+        <Label Style="{StaticResource LabelStyle}" x:Name="lbl1" Content="                   Логин" Grid.Column="1" HorizontalAlignment="Left" Margin="129,13,0,0" VerticalAlignment="Top" Height="39" Width="299" Padding="5" FontFamily="Gabriola"/>
+        <TextBox x:Name="Login" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="276,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label  Style="{StaticResource LabelStyle}"  x:Name="lbl2" Content="                   Пароль" Grid.Column="1" HorizontalAlignment="Left" Margin="129,40,0,0" VerticalAlignment="Top" Height="39" Width="286" Padding="5"/>
+
+
+        <Button x:Name="EnterBtn" Content="Вход"  FontFamily="SegoeUI Light" Grid.Column="1" HorizontalAlignment="Left" Margin="321,79,0,0" VerticalAlignment="Top" Width="75" Click="EnterBtn_Click" Height="20"/>
         <ListBox 
                 Name="Lb1" ItemsSource="{Binding Path=Employee}"      
-            ItemTemplate="{StaticResource СотрудникиItemTemplate}"  Visibility="Collapsed" />
-        <ListBox x:Name="l" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="0,10,0,0" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
-    </Grid>    
+            ItemTemplate="{StaticResource СотрудникиItemTemplate}"  Visibility="Collapsed" Margin="0,0,0,272" />
+        <ListBox 
+                Name="Lb2" ItemsSource="{Binding Path=Employee}"      
+            ItemTemplate="{StaticResource СотрудникиItemTemplate}"  Visibility="Collapsed" Margin="0,0,0,272" />
+       
+        <Button x:Name="Routes_btn" Click="Button_Click_1"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Margin="126,105,148,245" Width="164" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="184">
+                <Image Source="/Travel_agency;component/Icons/internetbags_2227.ico"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Путевки" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="Reports_btn" Click="Button_Click_3"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Margin="126,215,148,135" Width="164" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="184">
+                <Image Source="/Travel_agency;component/Icons/log_6343.ico"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Отчеты" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="Statistics_btn" 
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Margin="126,270,148,80" Width="164" Grid.Column="1" Click="Charts_btn_Click">
+            <StackPanel Orientation="Horizontal" Width="152">
+                <Image Source="/Travel_agency;component/Icons/Walrick-Openphone-Graph.ico"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Статистика" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="Hotels_btn" Click="Button_Click_6"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Margin="126,160,148,190" Width="164" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="184">
+                <Image Source="/Travel_agency;component/Icons/Dapino-Summer-Holiday-Hotel.ico"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Отели" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:Name="Employees_btn" Click="Button_Click_5"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Margin="126,325,147,25" Width="165" Grid.Column="1">
+            <StackPanel Orientation="Horizontal" Width="152">
+                <Image Source="/Travel_agency;component/Icons/kedit_3238.ico" Height="38" Width="41"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Регистрация" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+       <PasswordBox x:Name="Passw" Grid.Column="1" HorizontalAlignment="Left" Margin="276,52,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        
+        <Image Source="/Travel_agency;component/Images/side panel images/sideVoucher.jpg"/>
+        <Rectangle Margin="0,-1,421,0" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+              <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#33FFFFFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Margin="-5,0,0,0"  Fill="#4FFFFFFF"/>
+    </Grid>
 </Page>

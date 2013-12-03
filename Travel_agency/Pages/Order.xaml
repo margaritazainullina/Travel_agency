@@ -1,0 +1,66 @@
+﻿<Page x:Class="Travel_agency.Pages.Order"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="600"
+	Title="Заказ на путевку">
+
+    <Page.Background>
+        <ImageBrush ImageSource="/Travel_agency;component/Images/bgn.png"/>
+    </Page.Background>
+
+    <Grid Height="400" Width="600">
+        <Label  Style="{StaticResource LabelStyle}" FontSize="36" Content="Информация о заказе"  HorizontalAlignment="Left" Margin="184,10,0,0"  VerticalAlignment="Top" Height="62" Width="406"/>
+
+        <Label  Style="{StaticResource LabelStyle1}" Content="ФИО"  HorizontalAlignment="Left" Margin="184,90,0,0"  VerticalAlignment="Top" Height="32" Width="98"/>
+        <Label  Style="{StaticResource LabelStyle1}" Content="№ паспорта"  HorizontalAlignment="Left" Margin="184,120,0,0"  VerticalAlignment="Top" Height="40" Width="98"/>
+        <Label Style="{StaticResource LabelStyle1}"  Content="Серия паспорта"  HorizontalAlignment="Left" Margin="184,147,0,0"  VerticalAlignment="Top" Height="31" Width="115"/>
+        <TextBox Text="" x:Name="nameTb"  HorizontalAlignment="Left" Height="23" Margin="287,99,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="nTb"  HorizontalAlignment="Left" Height="23" Margin="287,127,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="sTb"  HorizontalAlignment="Left" Height="23" Margin="287,155,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Label  Style="{StaticResource LabelStyle1}" Content="Путевка "  HorizontalAlignment="Left" Margin="184,175,0,0"  VerticalAlignment="Top" Height="31" Width="110"/>
+        <TextBox x:Name="voucherTb"  HorizontalAlignment="Left" Height="23" Margin="287,183,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156" IsReadOnly="True"/>
+        <Label  Style="{StaticResource LabelStyle1}" Content="Дата начала"  HorizontalAlignment="Left" Margin="184,231,0,0"  VerticalAlignment="Top" Height="36" Width="110"/>
+        <TextBox x:Name="b_dateTb"  HorizontalAlignment="Left" Height="23" Margin="287,239,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156" IsReadOnly="True"/>
+        <Label  Style="{StaticResource LabelStyle1}"  Content="Дата конца"  HorizontalAlignment="Left" Margin="184,259,0,0"  VerticalAlignment="Top" Height="37" Width="110"/>
+        <TextBox x:Name="e_dateTb"  HorizontalAlignment="Left" Height="23" Margin="287,267,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156" IsReadOnly="True"/>
+        <Label  Style="{StaticResource LabelStyle1}" Content="Стоимость"  HorizontalAlignment="Left" Margin="184,204,0,0"  VerticalAlignment="Top" Height="30" Width="110"/>
+        <TextBox  x:Name="priceTb"  HorizontalAlignment="Left" Height="23" Margin="287,211,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156" IsReadOnly="True"/>
+        <Button Click="Button_Click_1"
+    			HorizontalAlignment="Center" 
+    			VerticalAlignment="Center" Height="50" Width="232" Margin="358,330,10,20">
+            <StackPanel Orientation="Horizontal" Width="207">
+                <Image Source="/Travel_agency;component/Icons/text.ico"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="  Формировать документы" FontFamily="SegoeUI Light" FontWeight="Light" FontSize="14"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Label Style="{StaticResource LabelStyle1}"  Content="Менеджер"  HorizontalAlignment="Left" Margin="184,290,0,0"  VerticalAlignment="Top" Height="29" Width="98"/>
+        <TextBox x:Name="empTb"  HorizontalAlignment="Left" Height="23" Margin="287,296,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="156" IsReadOnly="True"/>
+        <Label Style="{StaticResource LabelStyle1}"  Content="Отели"  HorizontalAlignment="Left" Margin="458,90,0,0"  VerticalAlignment="Top" Height="34" Width="110"/>
+        <TextBox  x:Name="hotelsTb"  HorizontalAlignment="Left" Height="195" Margin="458,124,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="132" IsReadOnly="True"/>
+
+        <Image Source="/Travel_agency;component/Images/side panel images/subscription-billing-credit-cards-1024x768.jpg" Margin="0,0,439,0"/>
+        <Rectangle Margin="162,0,418,0" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#33FFFFFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="-14,0,439,0" RenderTransformOrigin="0.5,0.5" Fill="#7FFFFFFF"/>
+
+    </Grid>
+</Page>
