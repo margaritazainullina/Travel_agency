@@ -1,0 +1,15 @@
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\Travel_agency.exe.config
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\Travel_agency.exe
+I:\db\курсовой\Travel_agency\Travel_agency\bin\Debug\Travel_agency.pdb
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.csprojResolveAssemblyReference.cache
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\MainWindow.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\MainWindow.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\App.g.cs
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency_MarkupCompile.cache
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.g.resources
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.Properties.Resources.resources
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.csproj.GenerateResource.Cache
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.exe
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Travel_agency.pdb
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.baml
+I:\db\курсовой\Travel_agency\Travel_agency\obj\Debug\Pages\MainPage.g.cs
